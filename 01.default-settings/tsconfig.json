@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "rootDir": "01.default-settings/src",
-        "outDir": "01.default-settings/build/js",
+        "rootDir": "./src",
+        "outDir": "./build/js",
         "target": "ES2015",
         "noEmitOnError": true,
         "module": "ESNext",
@@ -11,6 +11,6 @@
         "strict": true,
     },
     "include": [
-        "01.default-settings/src/**/*.ts",
+        "./src/**/*.ts",
     ]
 }
